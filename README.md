@@ -58,6 +58,6 @@ npm run dev
 
 ## Game end
 - Game ends when:
-  - One of the player or AI win
+  - One of the player or AI wins
   - You will be redirected to the Game Over page, where the winner is displayed.
 
