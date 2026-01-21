@@ -1,0 +1,118 @@
+/* style for buttons in FullGame.vue */
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.button {
+  padding: 15px 32px;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+}
+
+.gridMoveMenu {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.gridMoveMenuButton {
+  border-radius: 12px;
+}
+
+.board {
+  border-collapse: collapse;
+  margin: 40px auto;
+}
+
+/* style for the game board in GameBoard.vue*/
+.board td {
+  width: 80px;
+  height: 80px;
+  font-size: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #333;
+  transition: background 0.2s;
+}
+
+.board td:hover {
+  background: #f0f0f0;
+}
+
+.grid-cell {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  background-color: red;
+  font-size: xx-large;
+}
+
+/* style for the game board in GameOverPage.vue*/
+#winner {
+  font-size: 40px;
+  text-align: center;
+  position: static;
+  margin-top: 15rem;
+}
+
+#gameOver {
+  font-size: 100px;
+  color: red;
+  text-align: center;
+  position: static;
+  margin-bottom: 15rem;
+}
+
+/* style for the game board in GamePage.vue*/
+#gameModeTitle {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 5rem;
+}
+
+/* style for the game board in LoginPage.vue*/
+.form-check {
+  margin-top: 2%;
+}
+
+.btn-primary {
+  margin-top: 2%;
+}
+
+/* style for the game board in App.vue*/
+.containerBox {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.timer-display {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.timer {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  padding: 10px;
+  border: 2px solid #3498db;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background: white;
+}
+
+.timer-warning {
+  color: #e74c3c;
+  border-color: #e74c3c;
+  animation: pulse 1s infinite;
+}
