@@ -57,7 +57,7 @@ npm run dev
     - Move piece on any red empty cell
 
 ## Game end
-- Game end when
+- Game ends when:
   - One of the player or AI win
   - You will be redirected to the Game Over page, where the winner is displayed.
 
